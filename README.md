@@ -1,8 +1,14 @@
-# React + Vite
+#This project appears to be a website for an educational institution named "Educity". It's built using React, a popular JavaScript library for building user interfaces.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The website has several components, each representing a different section of the site:
 
-Currently, two official plugins are available:
+-The Hero component seems to be the landing section, providing a brief introduction about the institution.
+-The About component provides more detailed information about the university.
+-The Programs component showcases the different programs or degrees offered by the institution.
+-The Testimonials component displays testimonials from students.
+Other components like NavBar, Footer, etc., are likely to be common components used across different pages of the site.
+The project uses CSS for styling, and the styles for each component are kept in separate CSS files in the same directory as the component. For example, the styles for the About component are in About.css.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project is set up with Vite, a modern front-end build tool, and it uses npm for package management. The scripts for running, building, and testing the project are defined in the package.json file. The entry point of the application is main.jsx, which is referenced in the index.html file.
+
+The project also includes ESLint for maintaining code quality, with the configuration specified in the .eslintrc.cjs file.
